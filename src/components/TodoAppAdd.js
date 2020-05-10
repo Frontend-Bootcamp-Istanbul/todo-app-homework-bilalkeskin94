@@ -5,7 +5,6 @@ import { addTodo } from "../redux/actions";
 class TodoAppAdd extends Component {
   constructor(props) {
     super(props);
-
     this.state = {
       value: "",
     };
